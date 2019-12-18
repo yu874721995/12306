@@ -43,7 +43,7 @@ class select:
         self.urls = urlConf.urls
         self.login = GoLogin(self, TickerConfig.IS_AUTO_CODE, self.auto_code_type)
         self.cookies = ""
-        self.queryUrl = "leftTicket/queryO"
+        self.queryUrl = "leftTicket/queryA"
         self.passengerTicketStrList = ""
         self.passengerTicketStrByAfterLate = ""
         self.oldPassengerStr = ""
